@@ -1,0 +1,16 @@
+{
+	"name": "ADC",
+	"namespace": "Blackwater",
+	"version_number": "0.5.0",
+	"description": "Adds the ability to select an overlay that will be displayed on top of a host's skin. Ideal for skin mods that add small details to an existing skin.",
+	"website_url": "",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"authors": ["Blackwater"],
+			"compatible_mod_loader_version": ["3.0.0"],
+			"compatible_game_version": ["0.3.10.d"],
+			"config_defaults": {}
+		}
+	}
+}

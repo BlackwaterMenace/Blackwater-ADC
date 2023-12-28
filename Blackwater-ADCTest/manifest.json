@@ -1,0 +1,16 @@
+{
+	"name": "ADCTest",
+	"namespace": "Blackwater",
+	"version_number": "0.5.0",
+	"description": "Contains a pink test overlay for each bot to confirm the animations and alignment are correct.",
+	"website_url": "",
+	"dependencies": ["Blackwater-ADC"],
+	"extra": {
+		"godot": {
+			"authors": ["Blackwater"],
+			"compatible_mod_loader_version": ["3.0.0"],
+			"compatible_game_version": ["0.3.10.d"],
+			"config_defaults": {}
+		}
+	}
+}
