@@ -1,7 +1,7 @@
 extends Node
 
 const AUTHORNAME_MODNAME_DIR := "Blackwater-ADCTest"
-const AUTHORNAME_MODNAME_LOG_NAME := "Blackwater-ADCTest:Main"
+const AUTHORNAME_MODNAME_LOG_NAME := AUTHORNAME_MODNAME_DIR + ":Main"
 
 var mod_dir_path := ""
 
