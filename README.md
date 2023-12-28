@@ -2,6 +2,8 @@
 Accessorize with Detached Cosmetics (ADC) is a Random Access Mayhem mod that allows you to add cosmetic alterations to the game that can carry over to any skin.
 
 This mod is designed as a framework for other mods.
+Included is the ADCTest mod, which offers high-visibility overlays that fit perfectly over the skins to verify alignment, animation synchronization, and (most importantly) demonstrate how compatible mods should go about adding overlays.
+Also, please note that the Modloader currently does not support extensions of certain classes. The Blackwater-ADC folder includes a Scripts folder that should be dragged and dropped into the game root folder to replace those scripts with the modded version. The Scripts folder will be removed when extending those scripts is possible.
 
 # Introduction
 Sometimes, a skin mod consists of slight changes to a preexisting skin. Examples of such changes may include:
