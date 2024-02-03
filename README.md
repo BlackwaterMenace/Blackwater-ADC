@@ -46,21 +46,20 @@ As a mod user:
 If you're still reading this, you are likely either interested in this mod or are reading this in some form of highly esoteric RAM mods GitHub repo README.txt -based cringe compilation.
 If your case is the former, then I can't help but feel obligated to ensure you are aware of the following:
   * As a framework, this mod does not add anything of particular importance on its own. It is meant to pave the way for sprite modders to make their own accessories, which can be used with most skins.
-  * This framework is meant for small changes. If your mod's new sprites cover up most of the vanilla sprite's area, then it is likely best installed as a proper skin mod rather than an accessory.
-  * This mod works by overlaying sprites over the skin that you are using in your run. As such, it cannot remove parts of the underlying sprite. If you're making a mod that, for example, turns Router into Sonic the Hedgehog, this is not the mod for you. Indeed, any skin mods that involve removing anything from the silhouette\* of the bot from what it is in vanilla should not be converted into accessories and used with this framework. If your skin mod keeps the same silhouette\* or adds onto the silhouette\*, however, then this framework may be for you.
+  * This framework is meant for small changes. If you're making a mod that, for example, turns Router into Sonic the Hedgehog, this is not the mod for you. Generally, your mod should keep the same silhouette\* as the OG skins or add only slight details to it. If the silhouette\* will be radically changed or most of the OG skin will be obscured, just make it into a new skin.
   * Silhouette in German is "Umriss."
 
 If your case is the latter, then the following information may also be of use to you:
   * Silhouette in German is "Umriss."
 
-*Notes:
+# Notes:
 This framework enforces certain style choices. The sprites must be named as such:
 
 *{Bot actual name (capitalized)}{Name of overlay}{Type of sprite}.png*
 
 With {Type of sprite} being one of the following:
 * OSP:	  (All bots) Overlay Selection Portrait, which is used for seeing what overlay you're selecting on the skin/overlay selection menu.
-* Main:	  (All bots)Used for the main body, with no 
+* Main:	  (All bots) Used for the main body.
 * Arm:	  (Deadlift, Router) Used for Deadlift's and Router's arms, as they are animated seperately from the rest of their bodies. Many overlays will not need this.
 * Shaped: (Router) Used for Router's Shaped Charges arm. Many overlays will not need this.
 
