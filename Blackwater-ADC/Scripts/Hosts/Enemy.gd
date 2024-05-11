@@ -500,16 +500,16 @@ func update_look_direction(dir):
 		facing_left = false
 		sprite.flip_h = false
 		sprite.offset.x = 0
+		if skin_overlay != null:
+			skin_overlay.flip_h = false
+			skin_overlay.offset.x = 0
 	else:
 		facing_left = true
 		sprite.flip_h = true
 		sprite.offset.x = flip_offset
-	if dir > 0:
-		skin_overlay.flip_h = false
-		skin_overlay.offset.x = 0
-	else:
-		skin_overlay.flip_h = true
-		skin_overlay.offset.x = flip_offset
+		if skin_overlay != null:
+			skin_overlay.flip_h = true
+			skin_overlay.offset.x = flip_offset
 			
 func play_animation(anim_name, force_restart = false):
 	if not dead and not stunned:
@@ -806,4 +806,4 @@ func _on_animation_finished(anim_name):
 		dead = false
 		invincibility_timer = 0.5
 
-@onready var skin_overlay = $SkinOverlay
+@onready var skin_overlay = get_node_or_null(SkinOverlay)
